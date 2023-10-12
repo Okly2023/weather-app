@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+body .container .city-component {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+body .container .city-component .remove-button {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+body .container .city-component .remove-button .remove-button:hover {
+  background-color: #ff0000;
+}
+body .container .city-component .weather-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .container .city-component .weather-info .weather-card {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 10%;
+  color: white;
+}
+body .container .city-component .city-photo img {
+  width: 100%;
+  border-radius: 5px;
+  height: 25rem;
+}/*# sourceMappingURL=style.css.map */
